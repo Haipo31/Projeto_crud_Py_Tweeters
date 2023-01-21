@@ -13,7 +13,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
 
 INSTALLED_APPS = [
     'usuarios',
@@ -60,7 +59,7 @@ WSGI_APPLICATION = 'py_twitter.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.banckends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'pytwitter',
         'PASSWORD': '123456',
