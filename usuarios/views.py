@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Usuarios
 
 
+
 def login(request):
     usuarios = Usuarios.objects.all()
 
@@ -20,7 +21,8 @@ def twitter(request):
 def usuario(request):
     return render(request, 'usuario.html')
 
-
+def cadastro(request):
+    return render(request, 'cadastro.html')
 
 
 

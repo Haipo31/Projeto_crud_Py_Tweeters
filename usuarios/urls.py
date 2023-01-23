@@ -6,7 +6,8 @@ urlpatterns = [
     path('', views.login, name='login'),
     path('sobre', views.sobre, name='sobre'),
     path('twitter', views.twitter, name='twitter'),
-    path('usuario', views.usuario, name='usuario')
+    path('usuario', views.usuario, name='usuario'),
+    path('cadastro', views.cadastro, name='cadastro')
     
 
 ]
