@@ -3,11 +3,12 @@ from . import views
 
 urlpatterns = [
 
-    path('', views.login, name='login'),
+    path('', views.cadastro, name='cadastro'),
     path('sobre', views.sobre, name='sobre'),
     path('twitter', views.twitter, name='twitter'),
     path('usuario', views.usuario, name='usuario'),
-    path('cadastro', views.cadastro, name='cadastro')
+    path('login', views.login, name='login')
+
     
 
 ]
